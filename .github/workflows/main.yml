@@ -2,10 +2,8 @@ name: build
 
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
+    branches: [playwright-tests]
+    
 jobs:
   test:
     runs-on: ubuntu-latest
