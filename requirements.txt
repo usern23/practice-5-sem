@@ -1,0 +1,2 @@
+pytest-html
+pytest-playwright
